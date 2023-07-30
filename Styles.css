@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*background-color: red;*/
+}
+
+.Navbar{
+    width: 100% !important;
+    height: 80px !important;
+    position: fixed;
+}
+
+.Footer{
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.nosotros{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+.nosotros img{
+    height: 250px;
+}
+
+.ImagenCentral{
+    display: flex;
+}
+
+.ImagenCentral img{
+    width: 100%;
+    height: calc(100vh);
+    /*background-size: cover; 
+    background-position: center center; 
+    height: calc(100vh-80px);*/
+}

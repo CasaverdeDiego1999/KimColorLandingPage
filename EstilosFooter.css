@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.ContendorFooter{
+    background: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1%;
+    height: 300px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    margin: 0% 3%;
+}
+
+.redes{
+    border:  solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    display: flex;
+    margin: 0% 3%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
